@@ -18,8 +18,8 @@ function DispBar(i,tot)
     end
 
     % ************ Make safe for fprintf, replace control charachters
-        TxtPrint = strrep(TxtPrint,'%','%%');
-        TxtPrint = strrep(TxtPrint,'\','\\');
+    TxtPrint = strrep(TxtPrint,'%','%%');
+    TxtPrint = strrep(TxtPrint,'\','\\');
 
     if i==1
         tic;
