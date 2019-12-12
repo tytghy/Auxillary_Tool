@@ -10,5 +10,5 @@ for i = 1:size(img,3)
     else
         imwrite(im,filename,'WriteMode','append','Compression','packbits');
     end
-    DispBar(i,size(img,3));
+    dispbar(i,size(img,3));
 end
