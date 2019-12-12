@@ -1,4 +1,4 @@
-function [colorMatlab] = hexColorTransform(colorHex)
+function [colorMatlab] = hexcolortransform(colorHex)
 % hexColorTransform 
 %   Transform the hexadecimal color code to the color coded by Matlab
 %
@@ -11,4 +11,3 @@ function [colorMatlab] = hexColorTransform(colorHex)
 colorMatlab = sscanf(colorHex(2:end),'%2x%2x%2x',[1 3])/255;
 
 end
-
