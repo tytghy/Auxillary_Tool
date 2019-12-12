@@ -1,4 +1,4 @@
-function DispBar(i,tot)
+function dispbar(i,tot)
 
 % Display progress bar of a for loop.    
 % i = current loop.    tot = tot number of loops
